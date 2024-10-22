@@ -13,6 +13,11 @@ header{
 .top-head{
     display: flex;
     height: 80px;
+    transition: background-color 0.3s; 
+}
+
+.top-head:hover{
+    background-color: #e6e7d9;
 }
 
 header i{
@@ -45,4 +50,43 @@ header h1{
     color: black;
     text-decoration: none;
     margin-left: 50px;
+}
+
+.btn-head{
+    background-color: #e6e7d9;
+    transition: all 0.3s ease 0.1s;
+    position: fixed;
+    bottom: 150px;
+    left: 60px;
+    letter-spacing: 1px;
+    height: 60px;
+    width: 220px;
+    font-size: 25px;
+    background-color: #e6e7d9; 
+}
+
+.btn-head:hover{
+    background-color: transparent;
+    color: #e6e7d9;
+    cursor: pointer;
+    border: 3.5px solid #e6e7d9;
+}
+
+.text1-head{
+    position: fixed;
+    left: 60px;
+    bottom: 290px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #e6e7d9;
+    letter-spacing: 2px;
+}
+
+.text2-head{
+    position: fixed;
+    left: 60px;
+    font-family: arima;
+    font-weight: 650;
+    bottom: 220px;
+    font-size: 38px;
 }
