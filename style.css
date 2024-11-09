@@ -40,7 +40,7 @@ header h1{
 }
 
 .link-head{
-    position: fixed;
+    position: absolute;
     right: 50px;
     padding-top: 30px;
     font-size: 22px;
@@ -55,7 +55,7 @@ header h1{
 .btn-head{
     background-color: #e6e7d9;
     transition: all 0.3s ease 0.1s;
-    position: fixed;
+    position: absolute;
     bottom: 150px;
     left: 60px;
     letter-spacing: 1px;
@@ -73,7 +73,7 @@ header h1{
 }
 
 .text1-head{
-    position: fixed;
+    position: absolute;
     left: 60px;
     bottom: 290px;
     font-weight: 500;
@@ -83,10 +83,21 @@ header h1{
 }
 
 .text2-head{
-    position: fixed;
+    position: absolute;
     left: 60px;
     font-family: arima;
     font-weight: 650;
     bottom: 220px;
     font-size: 38px;
+}
+
+.content1 {
+    background-image: linear-gradient(180deg ,#eaeadd, #487b5c ,#000 60%);
+    text-align: center;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.cnt1-heading {
+    font-family: arima;
 }
