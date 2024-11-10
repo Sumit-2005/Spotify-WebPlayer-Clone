@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Bebas Neue;
+    box-sizing: border-box;
 }
 
 header{
@@ -100,4 +101,42 @@ header h1{
 
 .cnt1-heading {
     font-family: arima;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    overflow: hidden;
+    padding: 30px 0 0 0;
+    padding-bottom: 0;
+    background: pink;
+    white-space: nowrap;
+    height: 150px;
+}
+
+.logos:before{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+    content: '';
+    z-index: 2;
+    height: 150px;
+}
+
+.logos-slide{
+    display: inline-block;
+    animation: 5s slide infinite linear;
+}
+
+.logos-slide img{
+    height: 80px;
+    margin: 0 50px;
 }
