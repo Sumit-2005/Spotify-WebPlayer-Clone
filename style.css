@@ -148,3 +148,26 @@ header h1{
     height: 70px;
     margin: 0 40px;
 }
+
+.rotate_03{
+    position: absolute;
+    width: 160px;
+    left: 180px;
+    height: 160px;
+    margin: 600px 0 0 0;
+    top: 100px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    z-index: 2;
+}
+
+/* #-webkit-keyframes spin{
+    100%{-webkit-transform: rotate{360deg};}
+} */
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
