@@ -93,9 +93,9 @@ header h1{
 }
 
 .content1 {
-    background-image: linear-gradient(180deg ,#eaeadd, #487b5c ,#000 60%);
+    background-image: linear-gradient(180deg ,#eaeadd, #487b5c ,#000 15%);
     text-align: center;
-    height: 500px;
+    height: 3000px;
     padding-top: 30px;
     justify-content: center;
     align-items: center;
@@ -118,12 +118,12 @@ header h1{
     overflow: hidden;
     padding: 5px 0 0 0;
     padding-bottom: 0;
-    margin-left: 280px;
+    margin-left: 240px;
     background: black;
     white-space: nowrap;
     height: 70px;
     width: 1200px;
-    margin-top: 50px;
+    margin-top: 130px;
     border-radius: 1rem;
     box-shadow: 5px 5px 9px #487b5c
 }
@@ -141,7 +141,7 @@ header h1{
 
 .logos-slide{
     display: inline-block;
-    animation: 5s slide infinite linear;
+    animation: 6s slide infinite linear;
 }
 
 .logos-slide img{
@@ -152,13 +152,13 @@ header h1{
 .rotate_03{
     position: absolute;
     width: 160px;
-    left: 180px;
+    left: 150px;
     height: 160px;
-    margin: 600px 0 0 0;
+    margin: 680px 0 0 0;
     top: 100px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
     z-index: 2;
 }
 
@@ -171,3 +171,65 @@ header h1{
 @keyframes spin{
     100%{-webkit-transform: rotate(360deg);}
 }
+
+.sliding-divs{
+    padding-top: 120px;
+}
+
+.sd-head{
+    font-family: arima;
+    color: #eaeadd;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.music-divs{
+    display: flex;
+}
+
+.vertical-divs, .horizontal-divs{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    color: black;
+    border-radius: 1.5rem;
+    margin: 50px;
+    background: linear-gradient(180deg ,#eaeadd, #487b5c);
+    box-shadow: 0 0 30px 10px rgba(211, 211, 211, 0.5);
+}
+
+.card img{
+    height: 200px;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+#card1{
+    position: sticky;
+    top: 50px;
+}
+
+#card2{
+    position: sticky;
+    top: 90px;
+}
+
+#card3{
+    position: sticky;
+    top: 130px;
+}
+
+#card4{
+    position: sticky;
+    top: 170px;
+}
+
