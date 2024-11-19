@@ -199,18 +199,19 @@ ul{
 
 .card{
     width: 300px;
-    height: 400px;
+    height: 450px;
     color: black;
     border-radius: 1.5rem;
     margin: 50px;
     background: linear-gradient(180deg ,#eaeadd, #487b5c);
     box-shadow: 0 0 30px 10px rgba(211, 211, 211, 0.5);
+    padding: 25px;
 }
 
 .card img{
-    height: 200px;
+    height: 225px;
     box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
+    border-radius: .5rem;
 }
 
 #card1{
@@ -233,3 +234,41 @@ ul{
     top: 170px;
 }
 
+.music-title{
+    font-size: 1.5rem;
+    font-family: arima;
+    font-weight: 700;
+}
+
+.singers{
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 14px;
+}
+
+.timeline{
+    height: 10px;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background: darkslategray;
+    text-align: center;
+}
+
+.time{
+    text-align: right;
+    color: darkslategray;
+    font-size: 13px;
+}
+
+.pause, .forw, .back {
+    font-size: 2rem;
+    margin-top: 8px;
+}
+
+.back{
+    margin-right: 15px;
+}
+
+.forw{
+    margin-left: 15px;
+}
