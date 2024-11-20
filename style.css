@@ -194,7 +194,14 @@ ul{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.vertical-divs{
     padding-left: 150px;
+}
+
+.horizontal-divs{
+    padding-right: 150px;
 }
 
 .card{
@@ -276,4 +283,91 @@ ul{
 .spotify-logo{
     margin-top: 15px;
     font-size: 1.5rem;
+}
+
+.hcard-body{
+    display: flex;
+}
+
+.hcard{
+    width: 500px;
+    height: 280px;
+    color: black;
+    border-radius: 1.5rem;
+    margin: 50px;
+    background: linear-gradient(180deg ,#487b5c,#eaeadd);
+    box-shadow: 0 0 30px 10px rgba(211, 211, 211, 0.5);
+    padding: 25px;
+}
+
+.hcard img{
+    height: 220px;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#hcard1{
+    position: sticky;
+    top: 50px;
+}
+
+#hcard2{
+    position: sticky;
+    top: 90px;
+}
+
+#hcard3{
+    position: sticky;
+    top: 130px;
+}
+
+#hcard4{
+    position: sticky;
+    top: 170px;
+}
+
+#hcard5{
+    position: sticky;
+    top: 170px;
+}
+
+.img-div, .hmusic-info{
+    width: 50%;
+    height: 230px;
+}
+
+.hmusic-info{
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hmusic-title{
+    font-family: arima;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.hsingers{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.hfor-back{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.htimeline{
+    height: 10px;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background: darkslategray;
+    margin-left: 20px;
+    margin-top: 20px;
 }
