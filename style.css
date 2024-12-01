@@ -93,7 +93,7 @@ header h1{
 }
 
 .content1 {
-    background-image: linear-gradient(180deg ,#eaeadd, #487b5c ,#000 15%);
+    background-image: linear-gradient(180deg ,#eaeadd, #487b5c ,#121212 15%);
     text-align: center;
     height: 3000px;
     padding-top: 30px;
