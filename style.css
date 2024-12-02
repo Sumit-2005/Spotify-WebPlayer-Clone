@@ -95,10 +95,11 @@ header h1{
 .content1 {
     background-image: linear-gradient(180deg ,#eaeadd, #487b5c ,#121212 15%);
     text-align: center;
-    height: 3000px;
+    /* height: 3000px; */
     padding-top: 30px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .cnt1-heading {
@@ -195,6 +196,7 @@ ul{
     justify-content: center;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .vertical-divs{
@@ -371,4 +373,23 @@ ul{
     background: darkslategray;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.prem-plans1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prem-head{
+    color: #eaeadd;
+    font-family: arima;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.plan{
+    width: 350px;
+    height: 500px;
+    background: #242424;
+    border-radius: 0.75rem;
 }
