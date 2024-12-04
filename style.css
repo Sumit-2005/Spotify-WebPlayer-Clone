@@ -392,4 +392,55 @@ ul{
     height: 500px;
     background: #242424;
     border-radius: 0.75rem;
+    padding: 20px;
+}
+
+.top{
+    display: flex;
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.top i{
+    margin-right: 5px;
+}
+
+.premcard-head{
+    font-family: arima;
+    font-size: 2rem;
+    color: #CFF56A;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.pricing{
+    text-align: left;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.prem-list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prem-list ul li {
+    color: white;
+    text-align: left;
+    padding-top: 5px;
+    font-size: 1.15rem; 
+}
+
+.prem-btn{
+    background: #CFF56A;
+    width: 100%;
+    height: 50px;
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-size: 1.15rem;
 }
