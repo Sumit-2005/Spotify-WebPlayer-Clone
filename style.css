@@ -480,3 +480,45 @@ ul{
     border: 1px solid white;
     font-size: 1.15rem;
 }
+
+.prem-plans2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.premcard-head4{
+    font-family: arima;
+    font-size: 2rem;
+    color: #A5BBD1;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.prem-btn4{
+    background: #A5BBD1;
+    width: 100%;
+    height: 50px;
+    border-radius: 2rem;
+    border: 1px solid white;
+    font-size: 1.15rem;
+}
+
+.premcard-head5{
+    font-family: arima;
+    font-size: 2rem;
+    color: #a29baa;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.prem-btn5{
+    background: #a29baa;
+    width: 100%;
+    height: 50px;
+    border-radius: 2rem;
+    border: 1px solid white;
+    font-size: 1.15rem;
+}
