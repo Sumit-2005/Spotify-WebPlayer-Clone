@@ -442,7 +442,7 @@ ul{
     height: 50px;
     border-radius: 2rem;
     border: 1px solid white;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
 }
 
 .premcard-head2{
@@ -469,7 +469,8 @@ ul{
     height: 50px;
     border-radius: 2rem;
     border: 1px solid white;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
+    margin-top: 28px;
 }
 
 .prem-btn3{
@@ -478,7 +479,8 @@ ul{
     height: 50px;
     border-radius: 2rem;
     border: 1px solid white;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
+    margin-top: 28px;
 }
 
 .prem-plans2{
@@ -502,7 +504,7 @@ ul{
     height: 50px;
     border-radius: 2rem;
     border: 1px solid white;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
 }
 
 .premcard-head5{
@@ -520,5 +522,16 @@ ul{
     height: 50px;
     border-radius: 2rem;
     border: 1px solid white;
+    font-size: 1.2rem;
+}
+
+.onetime{
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 2rem;
+    border: 1px solid white;
     font-size: 1.15rem;
+    margin-top: 20px;
 }
