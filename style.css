@@ -535,3 +535,12 @@ ul{
     font-size: 1.15rem;
     margin-top: 20px;
 }
+
+.btnn{
+    transition: 0.2sec;
+}
+
+.btnn:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
