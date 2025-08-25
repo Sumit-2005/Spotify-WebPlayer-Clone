@@ -1,0 +1,24 @@
+{
+  "name": "spotify-webplayer-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumit-2005/Spotify-WebPlayer-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumit-2005/Spotify-WebPlayer-Clone/issues"
+  },
+  "homepage": "https://github.com/Sumit-2005/Spotify-WebPlayer-Clone#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
