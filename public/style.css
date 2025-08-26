@@ -7,7 +7,7 @@
 
 header{
     height: 650px;
-    background-image: url(Wavy\ Lines\ Wallpaper.jpg);
+    background-image: url(images/Wavy\ Lines\ Wallpaper.jpg);
     background-size: cover;
 }
 
@@ -155,7 +155,7 @@ header h1{
     width: 160px;
     left: 150px;
     height: 160px;
-    margin: 680px 0 0 0;
+    margin: 695px 0 0 0;
     top: 100px;
     -webkit-animation: spin 3.5s linear infinite;
     -moz-animation: spin 3.5s linear infinite;
